@@ -1,0 +1,22 @@
+├── build.gradle
+├── settings.gradle
+├── gradle.properties
+├── README.md
+├── .gitignore
+├── src/
+│   └── main/
+│       ├── java/
+│       │   └── com/rescue/examplemod/
+│       │       ├── ExampleMod.java
+│       │       ├── client/
+│       │       │   └── ClientModEvents.java
+│       │       └── rescue/
+│       │           ├── KnockdownManager.java
+│       │           └── network/
+│       │               └── packets/
+│       │                   ├── KnockdownStatusPacket.java
+│       │                   └── ...
+│       └── resources/
+│           ├── assets/rescue/lang/zh_cn.json
+│           └── config/rescue-common.toml
+└── .github/workflows/build.yml
